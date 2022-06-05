@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Body*/
+body {
+    background-color: red;
+    background-image: url(/img/FondoG.png);
+    background-size: auto;
+}
+
+/*Body*/
+/*Titulo*/
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Koulen', cursive;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-top: solid 5px;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgba(107, 3, 3, 0.15);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+/*Titulo*/
+/*Subtitulo*/
+.subTitulo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.subtitulo {
+    color: rgb(255, 0, 0);
+}
+ul{
+    list-style: none;
+}
+/*Logo*/
+.logo {
+    width: 50px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+/*Logo*/
+.bienvenida {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+    padding: 1rem;
+}
+
+/*Nav*/
+.navItem {
+    display: inline;
+    margin: 0 20px;
+    padding: 1rem;
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*Nav*/
+/*section*/
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog {
+    display: flex;
+    width: 75%;
+}
+
+.blog div {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Zen Loop', cursive;
+}
+
+.blogDer {
+    display: flex;
+    width: 75%;
+    flex-direction: row-reverse;
+}
+
+.blogDer div {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Zen Loop', cursive;
+}
+
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+}
+
+main section div div img {
+    width: 150px;
+}
+
+main section h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.productos {
+    margin: 5rem 0;
+}
+
+/*section*/
+/*footer*/
+.piePagina{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(158, 158, 158, 0.434);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.piePagina p {
+    padding: .5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+
+.pie_Pagina {
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+/*Nosotros*/
+.nosotros {
+    margin: auto;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0.178);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+/*Formularios*/
+.formRegister {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 2rem;
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    background-color: rgba(1, 5, 5, 0.2);
+}
+
+.form_Register {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 2rem;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(33, 134, 148, 0.123);
+    margin-bottom: 100px;
+    padding: 1px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+}
+
+.inputEnvio {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 1px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.textArea {
+    background-color: rgba(33, 134, 148, 0.123);
+    width: 80%;
+}
+
+.textAreaE {
+    background-color: rgba(0, 0, 0, 0.089);
+    width: 80%;
+}
+
+.envioText {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+    padding: 2rem;
+}
+
+.envioForm {
+    font-size: 20px;
+}
+
+.buttom {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: 1px;
+
+}
+/*Grid*/
+.grilla{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem 0rem;
+}
+/*Grid*/
+/*Media Queries*/ 
+@media screen and (max-width:480px){
+.headerTitle{background-color: rgba(153, 44, 44, 0.281);}
+.bienvenida{font-size: 20px;}
+.subtitulo{font-size: 20px;
+padding: 2px;}
+img{width: 100px;}
+.pie_Pagina{
+    font-size: 12px;
+    display: flex;
+    position: relative;
+    bottom: 0;}
+.blogContainer{
+    padding: 1rem;
+    margin:10px;
+    font-size: 30px;
+}
+.blogDer{
+    margin: 2rem;
+}
+.navItem{
+    font-size: 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+.navList{
+    padding: 0px 0px 0px 15px;
+}
+.logo{
+    width: 40px;
+    padding:0px 5px 0px 0px;
+}
+.formRegister{
+padding-bottom: 100px;
+}
+}
+@media screen and (max-width:768px){
+    .headerTitle{background-color: rgba(153, 44, 44, 0.281);}
+    .bienvenida{font-size: 30px;}
+    .subtitulo{font-size: 30px;
+    padding: 5px;}
+    img{width: 300px;}
+    .pie_Pagina{
+        font-size: 15px;
+        display: flex;
+        position: relative;
+        bottom: 0;}
+    .blogContainer{
+        padding: 1rem;
+        margin:15px;
+        font-size: 40px;
+    }
+    .blogDer{
+        margin: 2rem;
+    }
+    .navItem{
+        font-size: 25px;
+        margin-right: 2px;
+    }
+    }
+    .logo{
+        width: 45px;
+        padding:0px 5px 0px 0px;
+    }
+    .formRegister{
+        padding-bottom: 100px;
+    }
+    @media screen and (min-width:1200px){
+        .headerTitle{background-color: rgba(153, 44, 44, 0.281);}
+    }
+/*Media Queries*/
