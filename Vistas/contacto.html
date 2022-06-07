@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,22 +18,37 @@
 
 <body class="grilla">
     <header>
-        <nav>
-            <img class="logo" src="../img/pngwing.com.png" alt="Piezas de auto">
-            <ul class="navList">
-                <li class="navItem"><a href="../index.html">Inicio</a></li>
-                <li class="navItem"><a href="productos.html">Productos</a></li>
-                <li class="navItem"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navItem"><a href="envios.html">Envios</a></li>
-                <li class="navItem"><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img class="logo" src="../img/pngwing.com.png" alt="Piezas de auto">
+                <a class="navbar-brand text-white" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page"
+                                href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="envios.html">Envios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <hr>
-    <main>
-        <section class="formRegister">
-            <form action="" method="get" enctype="text/plain">
-                <legend>Datos personales</LEgend>
+    <section class="formRegister">
+        <form action="" method="get" enctype="text/plain">
+            <legend>Datos personales</LEgend>
                 <label for="Nombre">Nombre</label>
                 <input class="input" type="text" id="Nombre" name="Nombre" placeholder="Coloque su nombre">
                 <div>
@@ -46,21 +63,29 @@
                 <input class="input" type="text" id="Numero" name="Numero" placeholder="Coloque su numero">
                 <div>
                     <label for="consulta">Consulta por tu repuesto</label>
-                    <br>
-                    <textarea class="textArea" name="Consulta" id="consulta" name="Consulta" cols="50"
-                        rows="10"></textarea>
-                </div>
-                <div>
-                    <input class="buttom" type="submit" value="Enviar">
-                </div>
-            </form>
-        </section>
-    </main>
-    <footer class="piePagina">
-        <p><strong>Ubicacion:</strong>Argentina, Buenos aires.</p>
-        <p><Strong>Numero Tel:</Strong>02320-476040</p>
-        <p><strong>ENVIOS A TODO EL PAIS</strong></p>
-    </footer>
-</body>
-
-</html>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option value="1">Amortiguador</option>
+                        <option value="2">Bujias</option>
+                        <option value="3">Bieletas</option>
+                        <option value="4">Cubiertas</option>
+                        <option value="5">Pastillas de freno</option>
+                        <option value="6">Tuercas Antirrobo</option>
+                        <option value="7">Opticas</option>
+                    </select>
+                    </div>
+                    <div>
+                        <input class="buttom" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="piePagina">
+            <p><strong>Ubicacion:</strong>Argentina, Buenos aires.</p>
+            <p><Strong>Numero Tel:</Strong>02320-476040</p>
+            <p><strong>ENVIOS A TODO EL PAIS</strong></p>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        </footer>
+    </body>
+    </html>
