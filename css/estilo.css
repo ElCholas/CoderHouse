@@ -153,6 +153,7 @@ a{
     width: auto;
     padding: 1rem 2rem;
     margin: auto;
+    margin-top: 50px;
     background-color: rgba(0, 0, 0, 0.247);
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -179,7 +180,6 @@ main section h2 {
 /*section*/
 /*footer*/
 .piePagina{
-    position: absolute;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -205,12 +205,9 @@ main section h2 {
 /*footer*/
 /*Nosotros*/
 .nosotros {
-    margin: auto;
-    justify-content: center;
     border: solid 1px black;
     background-color: rgba(0, 0, 0, 0.178);
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
-    width: auto;
     text-align: center;
     padding: 30px;
     border-radius: 8px;
@@ -239,7 +236,7 @@ main section h2 {
     width: 400px;
     padding: 30px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     border-radius: 2rem;
     font-family: 'Zen Loop', cursive;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
@@ -292,11 +289,11 @@ main section h2 {
 
 }
 /*Grid*/
-/*.grilla{
+.grilla{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5rem 5rem;
+    grid-template-rows: 1fr 11fr;
 }
 /*Grid*/
 /*Media Queries*/ 
