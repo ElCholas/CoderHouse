@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: red;
+  background-image: url(/img/FondoG.png);
+  background-size: auto; }
+
+.header__Logo {
+  width: 50px;
+  position: absolute;
+  margin-top: 10px; }
+
+.header__Title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'Koulen', cursive;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-top: solid 5px;
+  border-right: solid 5px;
+  border-bottom: solid 5px;
+  border-left: solid 5px; }
+
+.header__bienvenida {
+  color: black;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
+  padding: 1rem; }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.377);
+  list-style: none; }
+  .nav__Item {
+    display: inline;
+    margin: 0 20px;
+    padding: 1rem;
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px; }
+    .nav__Item a {
+      text-decoration: none;
+      color: black; }
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .blog__container {
+    flex-direction: row-reverse;
+    display: flex;
+    width: 75%; }
+    .blog__container div {
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-family: 'Zen Loop', cursive; }
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  color: red; }
+
+.pie_Pagina {
+  display: flex;
+  justify-content: center; }
