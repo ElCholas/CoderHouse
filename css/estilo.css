@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
 /*Body*/
 body {
     background-color: red;
     background-image: url(/img/FondoG.png);
     background-size: auto;
 }
-
 /*Body*/
 /*Titulo*/
 .headerTitle {
@@ -26,7 +24,6 @@ body {
     border-bottom: solid 5px;
     border-left: solid 5px;
 }
-
 .titulo {
     display: flex;
     justify-content: center;
@@ -39,7 +36,6 @@ body {
     border-radius: 8px;
     padding: 0.5rem;
 }
-
 /*Titulo*/
 /*Subtitulo*/
 .subTitulo {
@@ -47,7 +43,6 @@ body {
     justify-content: center;
     padding-bottom: 1rem;
 }
-
 .subtitulo {
     color: rgb(255, 0, 0);
 }
@@ -59,14 +54,12 @@ ul{
     width: 50px;
     margin-top: 10px;
 }
-
 /*Logo*/
 .bienvenida {
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Lato', sans-serif;
 }
-
 /*Nav*/
 .navItem {
     display: inline;
@@ -75,7 +68,6 @@ ul{
     font-family: 'Zen Loop', cursive;
     font-size: 30px;
 }
-
 .navList {
     display: flex;
     justify-content: center;
@@ -84,12 +76,10 @@ ul{
     background-color: rgba(255, 255, 255, 0.377);
     list-style: none;
 }
-
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
 /*Nav*/
 /*section*/
 .blogContainer {
@@ -97,12 +87,10 @@ a{
     flex-direction: column;
     align-items: center;
 }
-
 .blog {
     display: flex;
     width: 75%;
 }
-
 .blog div {
     font-size: 30px;
     display: flex;
@@ -112,13 +100,11 @@ a{
     color: rgb(0, 0, 0);
     font-family: 'Zen Loop', cursive;
 }
-
 .blogDer {
     display: flex;
     width: 75%;
     flex-direction: row-reverse;
 }
-
 .blogDer div {
     font-size: 30px;
     display: flex;
@@ -128,14 +114,11 @@ a{
     color: rgb(0, 0, 0);
     font-family: 'Zen Loop', cursive;
 }
-
-
 .cardContainer {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-
 .card {
     display: flex;
     justify-content: center;
@@ -162,21 +145,17 @@ a{
 .card-body{
     margin-left: 1rem;
 }
-
 main section div div img {
     width: 150px;
 }
-
 main section h2 {
     text-align: center;
     padding-bottom: 3rem;
     color: rgba(0, 0, 0, 0.507);
 }
-
 .productos {
     margin: 5rem 0;
 }
-
 /*section*/
 /*footer*/
 .piePagina{
@@ -188,20 +167,16 @@ main section h2 {
     width: 100%;
     text-align: center;
 }
-
 .piePagina p {
     padding: .5rem;
     color: rgb(0, 0, 0);
     font-size: 1rem;
-
 }
-
 .pie_Pagina {
     display: flex;
     justify-content: center;
     bottom: 0%;
 }
-
 /*footer*/
 /*Nosotros*/
 .nosotros {
@@ -214,7 +189,6 @@ main section h2 {
     margin-top: 200px;
     font-size: 20px;
 }
-
 /*Formularios*/
 .formRegister {
     display: flex;
@@ -229,7 +203,6 @@ main section h2 {
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     background-color: rgba(1, 5, 5, 0.2);
 }
-
 .form_Register {
     display: flex;
     justify-content: center;
@@ -242,7 +215,6 @@ main section h2 {
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0);
 }
-
 .input {
     display: flex;
     justify-content: center;
@@ -253,7 +225,6 @@ main section h2 {
     border-radius: 4px;
     margin-bottom: 1px;
 }
-
 .inputEnvio {
     display: flex;
     justify-content: center;
@@ -262,31 +233,25 @@ main section h2 {
     margin-bottom: 5px;
     border-radius: 5px;
 }
-
 .textArea {
     background-color: rgba(33, 134, 148, 0.123);
     width: 80%;
 }
-
 .textAreaE {
     width: 80%;
 }
-
 .envioText {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     margin: 30px;
     padding: 2rem;
 }
-
 .envioForm {
     font-size: 20px;
 }
-
 .buttom {
     width: 80%;
     margin: 1px;
-
 }
 /*Grid*/
 .grilla{
@@ -297,7 +262,7 @@ main section h2 {
 }
 /*Grid*/
 /*Media Queries*/ 
-/*@media screen and (max-width:480px){
+@media screen and (max-width:480px){
 .headerTitle{background-color: rgba(153, 44, 44, 0.281);}
 .bienvenida{font-size: 20px;}
 .subtitulo{font-size: 20px;
