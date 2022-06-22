@@ -1,0 +1,39 @@
+/*Formularios*/
+.form {
+    @include form;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    background-color: rgba(1, 5, 5, 0.2);
+    &__Envio {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 1px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+}
+.formRegister {
+    @include form;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.envioForm {
+    font-size: 20px;
+}
+.buttom {
+    width: 80%;
+    margin: 1px;
+}
+.envioText {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+    padding: 2rem;
+}

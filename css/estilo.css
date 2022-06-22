@@ -161,7 +161,6 @@ main section h2 {
 .piePagina{
     display: flex;
     justify-content: center;
-    position: fixed;
     background-color: rgba(158, 158, 158, 0.434);
     bottom: 0%;
     width: 100%;
@@ -255,10 +254,9 @@ main section h2 {
 }
 /*Grid*/
 .grilla{
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 11fr;
+    grid-template-rows: max-content auto max-content;
 }
 /*Grid*/
 /*Media Queries*/ 

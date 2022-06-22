@@ -6,18 +6,18 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <meta name="description" content="Conoce Todo Repusto para encontrar las mejores marcas para tu vehiculo">
-    <meta name="keywords" content="Inicio">
+    <meta name="description" content="Contacta con nosotros para poder acesorarte en lo que necesites">
+    <meta name="keywords" content="Contactanos">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@1,100&family=Zen+Loop&display=swap"
         rel="stylesheet">
-    <title>Todo Repuestos</title>
+    <title>Contacto</title>
 </head>
 <!--Body-->
 <body class="grid">
@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg bg-dark nav">
             <div class="container-fluid">
                 <img class="nav__logo" src="../img/pngwing.com.png" alt="Piezas de auto">
-                <a class="navbar-brand text-white" href="./index.html">Inicio</a>
+                <a class="navbar-brand text-white" href="../index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,60 +36,62 @@
                     <ul class="navbar-nav">
                         <li class="nav__item">
                             <a class="nav-link active text-white" aria-current="page"
-                                href="./Pages/productos.html">Productos</a>
+                                href="productos.html">Productos</a>
                         </li>
                         <li class="nav__item">
-                            <a class="nav-link text-white" href="./Pages/nosotros.html">Nosotros</a>
+                            <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav__item">
-                            <a class="nav-link text-white" href="./Pages/envios.html">Envios</a>
+                            <a class="nav-link text-white" href="envios.html">Envios</a>
                         </li>
                         <li class="nav__item">
-                            <a class="nav-link  text-white" href="./Pages/contacto.html">Contacto</a>
+                            <a class="nav-link  text-white" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <h1 class="titleCont">Contactanos para que podamos acesorarte</h1>
     </header>
     <!--Main-->
-    <main class="main">
-        <h1 class="main__title" data-aos="zoom-in-right">TODO REPUESTOS</h1>
-        <p class="main__bienvenida">Trabajamos con las mejores marcas del mercado, tanto nacional como importadas.
-            Ofrecemos
-            la mas amplia variedad de repuestos y los mejores precios. Somos distribuidores oficiales de Bosch, Corven,
-            Sachs, Pirelli, Entre otros. Nos destacamos por el profesionalismo y el buen asesoramiento que da nuestro
-            grupo de manera online.</p>
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="./img/EscapeT.jpg" class="img-fluid rounded-start" alt="Sistema de escape">
+    <main>
+        <!--Section-->
+        <section class="form">
+            <form action="" method="get" enctype="text/plain">
+                <legend>Datos personales</LEgend>
+                <label for="Nombre">Nombre</label>
+                <input class="form__Envio" type="text" id="Nombre" name="Nombre" placeholder="Coloque su nombre">
+                <div>
+                    <label for="Apellido">Apellido</label>
+                    <input class="form__Envio" type="text" id="Apellido" name="Apellido"
+                        placeholder="Coloque su apellido">
                 </div>
-                <div class="col-md-8">
-                    <div class="card__body">
-                        <h2 class="card-title">Sistema de escape</h2>
-                        <p class="card-text">Tenemos la mejor variedad en caños de escape. Originales y de alta
-                            performance, para
-                            que tu vehiculo
-                            suene bien. Consulta por el que necesites.</p>
-                    </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <input class="form__Envio" type="text" id="Email" name="Email" placeholder="Coloque su email">
                 </div>
-            </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="./img/pistones.png" class="img-fluid rounded-start" alt="Pistones">
+                <label for="Numero">Numero celular</label>
+                <input class="form__Envio" type="text" id="Numero" name="Numero" placeholder="Coloque su numero">
+                <div>
+                    <label for="consulta">Consulta por tu repuesto</label>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="Consulta"
+                        name="Consulta">
+                        <option value="1">Amortiguador</option>
+                        <option value="2">Bujias</option>
+                        <option value="3">Bieletas</option>
+                        <option value="4">Cubiertas</option>
+                        <option value="5">Pastillas de freno</option>
+                        <option value="6">Tuercas Antirrobo</option>
+                        <option value="7">Opticas</option>
+                        <option value="8">Pistones</option>
+                        <option value="9">Escapes</option>
+                    </select>
                 </div>
-                <div class="col-md-8">
-                    <div class="card__body">
-                        <h2 class="card-title">Pistones</h2>
-                        <p class="card-text">Contamos con pistones forjados para tu proyecto. Consultanos para tu
-                            asesoramiento.</p>
-                    </div>
+                <div>
+                    <input class="buttom" type="submit" value="Enviar">
                 </div>
-            </div>
-        </div>
+            </form>
+        </section>
     </main>
     <!--Footer-->
     <footer class="piePagina">
@@ -98,11 +100,9 @@
         <p><strong>ENVIOS A TODO EL PAIS</strong></p>
     </footer>
     <!--Scripts-->
-    <script>
-        AOS.init();
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
