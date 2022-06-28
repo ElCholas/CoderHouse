@@ -2,8 +2,7 @@
 .form {
     @include form;
     padding: 10px;
-    margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     font-family: 'Zen Loop', cursive;
     font-size: 25px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
@@ -20,7 +19,6 @@
 .formRegister {
     @include form;
     padding: 30px;
-    margin: auto;
     margin-top: 25px;
     background-color: rgba(0, 0, 0, 0);
 }

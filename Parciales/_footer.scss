@@ -2,11 +2,9 @@
 .piePagina {
     display: flex;
     justify-content: center;
-    background-color: map-get($map: $colores, $key: "footer");
-    bottom: 0%;
     width: 100%;
     text-align: center;
-    @media screen and (max-width:768px){padding-top: 2rem;}
+    @media screen and (max-width:768px){padding-top: 3rem;}
     p{    padding: .5rem;
         color: rgb(0, 0, 0);
         font-size: 1rem;}
