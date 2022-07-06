@@ -10,14 +10,41 @@
         margin-top: 1rem;
     }
     &__card {
-        width: auto;
         padding: 1rem 2rem;
-        margin: 1rem;
+        margin-top: 1rem;
         background-color: rgba(0, 0, 0, 0.247);
         border-radius: 15px;
         border: 1px solid rgba(0, 0, 0, 0.3);
         box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
     }
+}
+/*Carrousel*/
+.carrousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    padding-bottom: 3rem;
+}
+.ofertas{
+    text-align: center;
+    &__P{
+        font-size: 25px;
+        color: red;
+        margin-left: 5rem;
+        margin-right:5rem;
+    }
+    h2{
+        color: red;
+        margin-left: 5rem;
+        margin-right:5rem;
+    }
+}
+.imgCarrousel{
+    margin-left: 5rem;
+    margin-right:5rem;
+    width: 100px;
 }
 /*Section nosotros*/
 .nosotros {

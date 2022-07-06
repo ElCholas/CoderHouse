@@ -1,7 +1,6 @@
 /*Main index*/
 .main {
-    &__title {
-        @media screen and (max-width:768px){background-color: rgba(153, 44, 44, 0.281);}
+    &__title{
         display: flex;
         justify-content: center;
         color: map-get($map: $colores, $key: "title");
@@ -19,6 +18,8 @@
         color: map-get($map: $colores, $key: "bienvenida");
         font-size: 30px;
         font-family: 'Lato', sans-serif;
+        margin: 1rem;
+        text-align: center;
     }
 }
 

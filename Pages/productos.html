@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <meta name="description" content="Encontra el repuesto que buscar al mejor precio del mercado">
-        <meta name="keywords" content="Repuestos">
+    <meta name="description" content="Encontra el repuesto que buscas al mejor precio del mercado">
+    <meta name="keywords" content="Repuestos">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,19 +15,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@1,100&family=Zen+Loop&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@1,100&family=Zen+Loop&display=swap"
+        rel="stylesheet">
     <title>Productos</title>
 </head>
-    <!--body-->
+<!--body-->
+
 <body class="grid">
-        <!--Header-->
+    <!--Header-->
     <header>
-            <!--Navbar-->
+        <!--Navbar-->
         <nav class="navbar navbar-expand-lg bg-dark nav">
             <div class="container-fluid">
-                <img class="nav__logo" src="../img/pngwing.com.png" alt="Piezas de auto">
-                <a class="navbar-brand text-white" href="../index.html">Inicio</a>
+                <a  class="navbar-brand text-white" href="../index.html"><img class="nav__logo" src="../img/pngwing.com.png" alt="Piezas de auto"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,10 +53,43 @@
         </nav>
         <h1 class="headertitulo">Productos</h1>
     </header>
-        <!--Main-->
+    <!--Main-->
     <main>
-            <!--Section-->
+        <!--Section-->
         <section>
+            <div id="carouselExampleIndicators" class="carousel slide carrousel" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 ofertas">
+                            <h2>Las ofertas te estan esperando enterate cuales son!</h2>
+                            <img class="imgCarrousel" src="../img/Ofertas.jpg" alt="Ofertas">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 ofertas">
+                            <p class="ofertas__P">Con tu compra superior a $40.000 te llevas de regalo un volante para
+                                tu proyecto</p>
+                            <img class="imgCarrousel" src="../img/Volantedeportivo.png" alt="Volante deportivo">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 ofertas">
+                            <p class="ofertas__P">Con tu compra de pistones forjados te llevas de regalo un limitador y control de largada</p>
+                            <img class="imgCarrousel" src="../img/cLargada.jpg" alt="Limitador y control de largada">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="container" data-aos="fade-right">
                 <div class="row justify-content-around text-aling-center">
                     <h2 class="container__subt">Amortiguadores</h2>
@@ -166,7 +199,7 @@
                         </div>
                     </div>
                     <div class="container__card" style="width: 20rem;">
-                        <img src="../img/Cpirelli185.png" class="card-img-top" alt="Cubierta Pirelli">
+                    <img src="../img/Cpirelli185.png" class="card-img-top" alt="Cubierta Pirelli">
                         <div class="card__body">
                             <p class="card-text">
                             <h3>Cubierta Pirelli P 185/60R14 82 H</h3>
@@ -256,13 +289,13 @@
             </div>
         </section>
     </main>
-        <!--Footer-->
+    <!--Footer-->
     <footer class="piePagina">
         <p><strong>Ubicacion:</strong>Argentina, Buenos aires.</p>
         <p><Strong>Numero Tel:</Strong>02320-476040</p>
         <p><strong>ENVIOS A TODO EL PAIS</strong></p>
     </footer>
-        <!--Scripts-->
+    <!--Scripts-->
     <script>
         AOS.init();
     </script>
@@ -270,4 +303,5 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
